@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/antonyfagundez/eslint-config/compare/v1.0.0...v1.0.1) (2023-04-10)
+
+
+### Bug Fixes
+
+* point to default registry ([081da11](https://github.com/antonyfagundez/eslint-config/commit/081da11d551c8f9805bfe10e716b582161a9f3ab))
+
 # 1.0.0 (2023-04-10)
 
 
