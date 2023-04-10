@@ -23,8 +23,8 @@ jobs:
       shell: bash
     - name: Release
       env:
-        GITHUB_TOKEN: ${{ secret.GITHUB_TOKEN }}
-        GH_TOKEN: ${{ secret.GITHUB_TOKEN }}
-        NPM_TOKEN: ${{ secret.NPM_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       run: pnpm dlx semantic-release
       shell: bash
