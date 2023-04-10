@@ -2,7 +2,7 @@ name: Release
 on: 
   push:
     branches: [ main ]
-permissions: read-all
+permissions: write-all
 jobs:
   release:
     runs-on: ubuntu-latest
