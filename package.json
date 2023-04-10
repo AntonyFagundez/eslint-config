@@ -85,10 +85,6 @@
     "url": "https://github.com/antonyfagundez/eslint-config/issues"
   },
   "homepage": "https://github.com/antonyfagundez/eslint-config#readme",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "tag": "latest"
-  },
   "files": [
     "index.js",
     "react-ts.js",
