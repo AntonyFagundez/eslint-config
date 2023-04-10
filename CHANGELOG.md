@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/antonyfagundez/eslint-config/compare/v1.0.1...v1.0.2) (2023-04-10)
+
+
+### Bug Fixes
+
+* add publish config public ([cabeaf9](https://github.com/antonyfagundez/eslint-config/commit/cabeaf90bbced109699960b23f3ad669c60ae882))
+
 ## [1.0.1](https://github.com/antonyfagundez/eslint-config/compare/v1.0.0...v1.0.1) (2023-04-10)
 
 
