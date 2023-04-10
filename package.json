@@ -50,7 +50,7 @@
     "@typescript-eslint/eslint-plugin": {
       "optional": false
     },
-    "eslint-plugin-react-native":{
+    "eslint-plugin-react-native": {
       "optional": true
     }
   },
