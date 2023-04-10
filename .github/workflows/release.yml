@@ -1,9 +1,8 @@
 name: Release
-
 on: 
   push:
     branches: [ main ]
-
+permissions: read-all
 jobs:
   release:
     runs-on: ubuntu-latest
