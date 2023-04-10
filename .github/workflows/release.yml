@@ -1,0 +1,32 @@
+name: "Release npm"
+
+on: 
+  push:
+    branches:
+      - "main"
+
+jobs:
+  Release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Use pnpm Setup
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Setup Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: 'pnpm'
+      - name: Install dev deps
+        run: pnpm i --frozen-lockfile
+        shell: bash
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secret.github_token }}
+          GH_TOKEN: ${{ secret.github_token }}
+          NPM_TOKEN: ${{ secret.NPM_TOKEN }}
+        run: pnpm dlx semantic-release
+        shell: bash

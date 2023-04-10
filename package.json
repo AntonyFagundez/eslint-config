@@ -1,0 +1,98 @@
+{
+  "name": "@antonyfagundez/eslint-config",
+  "version": "1.0.0",
+  "description": "eslint config shared for my own js/ts projects",
+  "main": "index.js",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": ">=7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint": {
+      "optional": false
+    },
+    "eslint-plugin-import": {
+      "optional": false
+    },
+    "eslint-plugin-node": {
+      "optional": false
+    },
+    "eslint-plugin-promise": {
+      "optional": false
+    },
+    "eslint-plugin-react": {
+      "optional": false
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": false
+    },
+    "prettier": {
+      "optional": false
+    },
+    "@typescript-eslint/parser": {
+      "optional": false
+    },
+    "eslint-plugin-prettier": {
+      "optional": false
+    },
+    "eslint-config-prettier": {
+      "optional": false
+    },
+    "@typescript-eslint/eslint-plugin": {
+      "optional": false
+    },
+    "eslint-plugin-react-native":{
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/exec": "^6.0.1",
+    "@semantic-release/git": "^10.0.0",
+    "@semantic-release/github": "^8.0.1",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react-native": "^4.0.0",
+    "prettier": "2.8.7",
+    "replace-json-property": "^1.8.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "react",
+    "js",
+    "ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonyfagundez/eslint-config.git"
+  },
+  "author": "Antony Fagundez",
+  "bugs": {
+    "url": "https://github.com/antonyfagundez/eslint-config/issues"
+  },
+  "homepage": "https://github.com/antonyfagundez/eslint-config#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  },
+  "files": [
+    "index.js",
+    "react-ts.js",
+    "react.js",
+    "ts.js"
+  ]
+}
