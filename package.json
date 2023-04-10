@@ -84,6 +84,10 @@
   "bugs": {
     "url": "https://github.com/antonyfagundez/eslint-config/issues"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "homepage": "https://github.com/antonyfagundez/eslint-config#readme",
   "files": [
     "index.js",
