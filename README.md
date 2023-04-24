@@ -12,7 +12,7 @@ Contains a configuration based with prettier by default and its extensible. The 
 
 
 ``` bash
-npm i @architecture-it/eslint-config -D
+npm i @antonyfagundez/eslint-config -D
 ```
 
 ----
